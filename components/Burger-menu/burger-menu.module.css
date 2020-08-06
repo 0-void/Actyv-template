@@ -1,0 +1,23 @@
+.burgerMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 0.2rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3px;
+  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.2);
+}
+
+.bar {
+  width: 80%;
+  height: 2px;
+  background: black;
+}
+
+@media (min-width: 540px) {
+  .burgerMenu {
+    display: none;
+  }
+}
